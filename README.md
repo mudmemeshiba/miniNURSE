@@ -40,6 +40,15 @@ ESP32-S3-DEVKITC-1 (2x)
 
 <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihaL7Uij1s-_OaySzx_eMpFtR9trmo0g4U0Fjlru5TVXEItfzYDteCxmpGvzFQo6T_na8YGotYyDZfOtjUxMr7_vEPazLw=s1600" alt="Dashboard" width="764" height="327">
 
+## Software
+### esp-camera
+- PubSubClient
+    - for connecting with mqtt
+- TridentTD_LineNotify
+    - to sending to line notify
+- esp_camera
+    - to connect the camera
+
 ### Flow
 
 
