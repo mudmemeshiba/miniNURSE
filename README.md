@@ -88,7 +88,9 @@ ESP32-S3-DEVKITC-1 (2x)
 ### Scheduler
 The users themselves or their caregivers input their data and desired time (24-hour format) to the Node-RED form (one schedule at a time). The data is store on the server directory ./data/ in a text file and can be access by http request. Then it will be displayed on the UI table unless the `clear table` button is clicked.  Every time there is a new input, the file is overwritten.
 
-We use timestamp to read the file and send JSON data to the ESP32 via MQTT. Currently, the timestamp is triggered every 1 minute to ensure that the program will be scheduled only one time in one minute. The JSON data is then parsed and displayed on OLED screen. When it's time, the buzzer will continuously play the music while the LDR sensor detects the light level inside the medicine box. Unless the light level is more than 60%, the buzzer will not stop playing.
+We use timestamp to read the file and send JSON data to the ESP32 via MQTT. Currently, the timestamp is triggered every 1 minute to ensure that the program will be scheduled only one time in one minute. The JSON data is then parsed and displayed on OLED screen.
+
+For the medicine scheduler, When it's time, the buzzer will continuously play the music while the LDR sensor detects the light level inside the medicine box. Unless the light level is more than 60%, the buzzer will not stop playing. Meanwhile, the misc scheduler does not require any action to stop the music.
 
 ### Blood Pressure Monitor
 The ultrasonic sensor is placed around 25cm away from the wall. If the user places the arm next to the blood pressure device, the sensor will detect changes in distance and start the 1 minute countdown (the average time of ) before the ESP32-camera captures the result. The MQTT is then sent from the ultrasonic board to the camera board. Finally, the picture will be notified on line.
