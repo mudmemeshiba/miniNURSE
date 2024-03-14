@@ -33,12 +33,17 @@ ESP32-S3-DEVKITC-1 (2x)
     - Measures distance from the user's arm
 ### ESP32-camera module (1x) 
 - Captures blood pressure result's screen
+  ![camera_circuit](https://github.com/mudmemeshiba/miniNURSE/assets/98101484/9d25aeaa-ca49-4b33-96a1-ac979178df33)
+
 
 ## Node-RED
 
 ### Dashboard (user input)
 
 <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihaL7Uij1s-_OaySzx_eMpFtR9trmo0g4U0Fjlru5TVXEItfzYDteCxmpGvzFQo6T_na8YGotYyDZfOtjUxMr7_vEPazLw=s1600" alt="Dashboard" width="764" height="327">
+![Screenshot 2024-03-14 003218](https://github.com/mudmemeshiba/miniNURSE/assets/98101484/f1e4361d-240b-437f-91f4-85151196d742)
+
+
 
 ## Software
 ### esp-camera
