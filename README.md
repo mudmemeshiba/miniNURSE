@@ -108,7 +108,7 @@ OR
 <img width="337" alt="Screenshot 2024-03-14 104124" src="https://github.com/mudmemeshiba/miniNURSE/assets/133182776/7f860e0f-b759-478a-9346-225f3eb52a78">
 
 
-## Innovated by ไม่ได้เป็นหมอแต่เป็นห่วง (CPE37, KU83)
+### Innovated by ไม่ได้เป็นหมอแต่เป็นห่วง (CPE37, KU83)
 
 - 6610501963  KRITTIWIT     KAMPRADAM 
 
