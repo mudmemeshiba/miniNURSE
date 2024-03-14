@@ -37,8 +37,6 @@ byte months_;
 byte years_;
 /* ntpCLOCK variables */
 
-struct parsedMed medName; // for line notify
-
 const int numTones = sizeof(notes) / sizeof(notes[0]);
 int getFrequency(const char* noteName) {
   for (int i = 0; i < numTones; ++i) {
@@ -214,7 +212,8 @@ void mqtt_callback(char* topic, byte* payload, unsigned int length) {
     printf("it's time for exercise \n");
 
     for (int i = 0; i < sizeof(scoreDoAhDeer) / sizeof(durationDoAhDeer[0]); ++i) {
-      tone(BUZZER, getFrequency(scoreDoAhDeer[i]), durationDoAhDeer[i]);
+      tone(BUZZER, getFrequency(scoreDoAhDeer[i]));
+      delay(durationDoAhDeer[i]);
     }
     noTone(BUZZER);
   }
