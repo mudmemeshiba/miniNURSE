@@ -15,6 +15,7 @@ Although this project originated from the needs of older people, anyone can use 
 - Schedule the time to take a break from work to prevent overloading or office syndrome
 - Schedule the time to go for a walk with your lovely pets
 - Schedule any random time to enjoy the music from the buzzer
+- etc.
 
 Our goal is to universally enhance everyone's quality of life.
 
@@ -33,11 +34,26 @@ ESP32-S3-DEVKITC-1 (2x)
 ### ESP32-camera module (1x) 
 - Captures blood pressure result's screen
 
-## Node-RED Dashboard (user input)
+## Node-RED
+
+### Dashboard (user input)
 
 <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihaL7Uij1s-_OaySzx_eMpFtR9trmo0g4U0Fjlru5TVXEItfzYDteCxmpGvzFQo6T_na8YGotYyDZfOtjUxMr7_vEPazLw=s1600" alt="Dashboard" width="764" height="327">
 
+### Flow
+
+
+
 ## Innovated by ไม่ได้เป็นหมอแต่เป็นห่วง (CPE37, KU83)
 
-This project is a under the 01204114 Hardware Development Course, 2/2023.
-Department of Computer Engineering, Faculty of Engineer, Kasetsart University
+- 6610501963 KRITTIWIT    KAMPRADAM 
+
+- 6610502153 PACHARAMON   PUTRASRENI 
+
+- 6610505527 PENPITCHA    JUMRUSPUN 
+
+- 6610505586 ศุภธิชารัตน์	เฉลิมขวัญมงคล
+
+This project is a under the 01204114 Introduction to Hardware Development Course, 2/2023.
+
+Department of Computer Engineering, Faculty of Engineering, Kasetsart University
